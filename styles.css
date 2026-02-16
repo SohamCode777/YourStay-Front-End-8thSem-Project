@@ -1,0 +1,217 @@
+/* */
+
+.container-fluid {
+    padding: 3% 5%;
+}
+
+body {
+    background-color: #f6f1f1;
+}
+
+
+/*Heading */
+
+#heading {
+    background-color: #3a98b9;
+    padding: 10px 30px 20px 30px;
+}
+
+.Companyname {
+    font-family: "Sigmar";
+    font-weight: 400;
+    font-size: xx-large;
+}
+
+.navigationlinks {
+    font-family: "Ubuntu";
+    font-weight: 400;
+    color: white;
+    font-size: 18px;
+    margin: 0px 5px;
+}
+
+
+/*Brief */
+
+#brief {
+    background-color: #19a7ce;
+    padding: 10px 30px 20px 30px;
+    color: white;
+    text-align: center;
+}
+
+.briefheading {
+    font-family: "Montserrat";
+    font-weight: 900;
+    text-align: center;
+}
+
+.briefdesc {
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-size: 30px;
+    padding: 5px 10px;
+}
+
+.briefrow {
+    margin: 80px 15px;
+}
+
+.briefcolumns {
+    text-align: center;
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.briefpara {
+    border: #f6f1f1 solid 2px;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.briefpara:hover {
+    color: black;
+    background-color: white;
+}
+
+
+/*apartmentimages section */
+
+.apartmentimg {
+    width: 100%;
+    height: 600px;
+    padding: 0;
+    margin: 0;
+}
+
+.contentImage {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
+}
+
+
+/* form section */
+
+#searchform {
+    padding: 0% 0 10% 0;
+}
+
+.FORM {
+    text-align: center;
+}
+
+.formheading {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.submitbutton {
+    margin-top: 20px;
+}
+
+.selectarea {
+    width: 60%;
+    margin-left: 20%;
+}
+
+
+/* Map info section */
+
+#mapinformation {
+    text-align: center;
+    margin-top: -10%;
+    padding-bottom: 1%;
+}
+
+.mapinfoheading {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.mapdescription {
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.clusters {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.clusteritem {
+    margin: 20px 0px;
+}
+
+
+/* review section */
+
+#review {
+    padding: 5% 2%;
+    text-align: center;
+    background-color: #19a7ce;
+    color: white;
+}
+
+.review-text {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.review-image {
+    border-radius: 50%;
+    width: 6%;
+}
+
+
+/* footer section */
+
+#footer {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(186, 191, 194);
+    padding: 10px 0 10px 0;
+}
+
+.contactheading {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.emailcontact {
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-size: 1rem;
+    padding-bottom: 20px;
+}
+
+.footerlogo {
+    padding: 10px 8px 5px 8px;
+    font-size: 1.1rem;
+}
+
+.copyright {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1rem;
+}
